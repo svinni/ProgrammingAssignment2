@@ -20,8 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve will take the iput matrix and check if the inverse of this matrix
-## already exits in the cache and returns the inverse either from the cache(if exits)
+## cacheSolve will take the input matrix and check if the inverse of this matrix
+## already exists in the cache and returns the inverse either from the cache(if exists)
 ##or by calculation.
 
 cacheSolve <- function(x, ...) {
